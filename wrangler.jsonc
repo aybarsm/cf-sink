@@ -7,10 +7,9 @@
     "directory": ".output/public",
     "html_handling": "drop-trailing-slash"
   },
-  "compatibility_date": "2025-05-08",
+  "compatibility_date": "2025-05-19",
   "compatibility_flags": [
-    "nodejs_compat",
-    "nodejs_compat_v2"
+    "nodejs_compat"
   ],
   "keep_vars": true,
   "upload_source_maps": true,
