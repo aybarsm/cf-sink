@@ -35,15 +35,15 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3" // IMPORTANT: Change this to your KV namespace ID
+      "preview_id": "fd5c865d699146e9891007fc0d7cb5dd",
+      "id": "4e145450db104ba6a8b19391fb52283b"
     }
   ],
   "r2_buckets": [
     {
       "binding": "R2",
       "preview_bucket_name": "sink",
-      "bucket_name": "sink" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
+      "bucket_name": "sink"
     }
   ],
   "triggers": {
