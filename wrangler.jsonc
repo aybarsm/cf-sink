@@ -7,7 +7,7 @@
     "directory": ".output/public",
     "html_handling": "drop-trailing-slash"
   },
-  "compatibility_date": "2025-05-19",
+  "compatibility_date": "2025-05-08",
   "compatibility_flags": [
     "nodejs_compat"
   ],
@@ -41,11 +41,11 @@
   "r2_buckets": [
     {
       "binding": "R2",
-      "preview_bucket_name": "sink",
-      "bucket_name": "sink"
+      "preview_bucket_name": "blrm-test",
+      "bucket_name": "blrm"
     }
   ],
   "triggers": {
-    "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
+    "crons": ["0 0 * * *"]
   }
 }
